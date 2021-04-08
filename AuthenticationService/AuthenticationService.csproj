@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authentication.DAL\Authentication.DAL.csproj" />
+    <ProjectReference Include="..\Authentication.Helper\Authentication.Helper.csproj" />
+    <ProjectReference Include="..\Authentication.Model\Authentication.Model.csproj" />
+  </ItemGroup>
+
+</Project>
